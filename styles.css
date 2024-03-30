@@ -6,11 +6,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-image: url('dollars.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .container {
@@ -22,10 +17,74 @@ body {
 }
 
 .heading-container {
-  background-color: rgb(84, 84, 241);
+  background-color: rgb(126, 20, 119);
   padding: 20px;
   border-radius: 10px 10px 0 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-/* Add more CSS rules as needed */
+.input-container {
+  padding: 20px;
+}
+
+h2,
+h3 {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.combo-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.combo-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  width: 100px;
+}
+
+.combo-box select {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+}
+
+.combo-box input,
+.combo-box select {
+  padding: 12px;
+}
+
+.swap-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: rgb(126, 20, 119);
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgb(126, 20, 119);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
