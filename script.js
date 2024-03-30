@@ -36,11 +36,11 @@ document.getElementById('swapArrow').addEventListener('click', function() {
     }
   
     if (fromAmount < 0 || isNaN(fromAmount)) {
-        document.getElementById('errorMessage').style.display = 'block';
+        
+        document.getElementById('errorMessage').textContent= 'Pleae enter valid amount';
         document.getElementById('toAmount').value = '';
     } else {
         document.getElementById('errorMessage').style.display = 'none';
         document.getElementById('toAmount').value = convertedAmount.toFixed(2);
     }
   }
-  
